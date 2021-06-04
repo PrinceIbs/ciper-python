@@ -1,3 +1,5 @@
+import math
+
 def deciper(cipherText, key):
 
     deciperText = ''
@@ -23,6 +25,7 @@ def deciper(cipherText, key):
                     deciperText += lower[new_index]
                 else:
                     deciperText += lower[index_of_char]
+
         else:
             deciperText += char
 

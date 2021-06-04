@@ -4,15 +4,15 @@ import fileinput
 
 
 
-def dec(file_content):
-       decrypted = deciper(file_content, 12)
+def dec(file_content, key):
+       decrypted = deciper(file_content, key)
        print(decrypted)
        with open(filename, 'w') as f:
               f.write(decrypted)
 
 
-def enc(file_content):
-       encrypted = ciper(file_content, 12)
+def enc(file_content, key):
+       encrypted = ciper(file_content, key)
        print(encrypted)
        with open(filename, 'w') as f:
               f.write(encrypted)
@@ -28,10 +28,13 @@ def main():
               
        action = int(input("1. Decrypt \n2. Encrypt\n>>> "))
        if action == 1:
-              dec(file_content)
-              enc(file_content)
+              key = int(input("Key>>> "))
+              dec(file_content, key)
+
        elif action == 2:
-              enc(file_content)
+              key = int(input("Key>>> "))
+              enc(file_content, key)
+
        else:
               print("Invalid input")
        
