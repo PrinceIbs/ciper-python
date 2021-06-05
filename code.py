@@ -3,14 +3,15 @@ from opencode import deciper
 import fileinput
 
 
-
+// decrypt the file content
 def dec(file_content, key):
        decrypted = deciper(file_content, key)
        print(decrypted)
        with open(filename, 'w') as f:
               f.write(decrypted)
 
-
+              
+// encrypt the file content
 def enc(file_content, key):
        encrypted = ciper(file_content, key)
        print(encrypted)
@@ -19,20 +20,23 @@ def enc(file_content, key):
 
 
 def main():
-
+       // Take user decision
+       action = int(input("1. Decrypt \n2. Encrypt\n>>> "))
+       
        global filename
-       filename = 'myfile.txt'
+       filename = input("Enter file name")
                  
        with open(filename, 'r') as f:
               file_content = f.read()
               
-       action = int(input("1. Decrypt \n2. Encrypt\n>>> "))
        if action == 1:
-              key = int(input("Key>>> "))
+              // get encryption key from user
+              key = int(input(">>>Key "))
               dec(file_content, key)
 
        elif action == 2:
-              key = int(input("Key>>> "))
+              // get encryption key from the user
+              key = int(input(">>>Key "))
               enc(file_content, key)
 
        else:
