@@ -1,0 +1,13 @@
+1. Decrypt
+2. Encrypt
+>>> 1
+Key>>> 20
+Traceback (most recent call last):
+  File "C:/Users/ISAAC/Downloads/THE OWNER/vscode/python/cipher/code.py", line 42, in <module>
+    main()
+  File "C:/Users/ISAAC/Downloads/THE OWNER/vscode/python/cipher/code.py", line 32, in main
+    dec(file_content, key)
+  File "C:/Users/ISAAC/Downloads/THE OWNER/vscode/python/cipher/code.py", line 8, in dec
+    decrypted = deciper(file_content, key)
+  File "C:\Users\ISAAC\Downloads\THE OWNER\vscode\python\cipher\opencode.py", line 20, in deciper
+    index_of_char = lower.index(char) - key

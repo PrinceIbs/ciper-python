@@ -21,7 +21,7 @@ def enc(file_content, key):
 def main():
 
        global filename
-       filename = 'myfile.txt'
+       filename = "myfile.txt"
                  
        with open(filename, 'r') as f:
               file_content = f.read()
