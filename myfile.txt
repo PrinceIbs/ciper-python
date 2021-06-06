@@ -1,13 +1,13 @@
-1. Decrypt
-2. Encrypt
+1. Pqodkbf
+2. Qzodkbf
 >>> 1
-Key>>> 20
-Traceback (most recent call last):
-  File "C:/Users/ISAAC/Downloads/THE OWNER/vscode/python/cipher/code.py", line 42, in <module>
-    main()
-  File "C:/Users/ISAAC/Downloads/THE OWNER/vscode/python/cipher/code.py", line 32, in main
-    dec(file_content, key)
-  File "C:/Users/ISAAC/Downloads/THE OWNER/vscode/python/cipher/code.py", line 8, in dec
-    decrypted = deciper(file_content, key)
-  File "C:\Users\ISAAC\Downloads\THE OWNER\vscode\python\cipher\opencode.py", line 20, in deciper
-    index_of_char = lower.index(char) - key
+Wqk>>> 20
+Fdmoqnmow (yaef dqoqzf omxx xmef):
+  Ruxq "O:/Geqde/UEMMO/Paizxampe/FTQ AIZQD/heoapq/bkftaz/oubtqd/oapq.bk", xuzq 42, uz <yapgxq>
+    ymuz()
+  Ruxq "O:/Geqde/UEMMO/Paizxampe/FTQ AIZQD/heoapq/bkftaz/oubtqd/oapq.bk", xuzq 32, uz ymuz
+    pqo(ruxq_oazfqzf, wqk)
+  Ruxq "O:/Geqde/UEMMO/Paizxampe/FTQ AIZQD/heoapq/bkftaz/oubtqd/oapq.bk", xuzq 8, uz pqo
+    pqodkbfqp = pqoubqd(ruxq_oazfqzf, wqk)
+  Ruxq "O:\Geqde\UEMMO\Paizxampe\FTQ AIZQD\heoapq\bkftaz\oubtqd\abqzoapq.bk", xuzq 20, uz pqoubqd
+    uzpqj_ar_otmd = xaiqd.uzpqj(otmd) - wqk
