@@ -1,13 +1,1 @@
-1. Pqodkbf
-2. Qzodkbf
->>> 1
-Wqk>>> 20
-Fdmoqnmow (yaef dqoqzf omxx xmef):
-  Ruxq "O:/Geqde/UEMMO/Paizxampe/FTQ AIZQD/heoapq/bkftaz/oubtqd/oapq.bk", xuzq 42, uz <yapgxq>
-    ymuz()
-  Ruxq "O:/Geqde/UEMMO/Paizxampe/FTQ AIZQD/heoapq/bkftaz/oubtqd/oapq.bk", xuzq 32, uz ymuz
-    pqo(ruxq_oazfqzf, wqk)
-  Ruxq "O:/Geqde/UEMMO/Paizxampe/FTQ AIZQD/heoapq/bkftaz/oubtqd/oapq.bk", xuzq 8, uz pqo
-    pqodkbfqp = pqoubqd(ruxq_oazfqzf, wqk)
-  Ruxq "O:\Geqde\UEMMO\Paizxampe\FTQ AIZQD\heoapq\bkftaz\oubtqd\abqzoapq.bk", xuzq 20, uz pqoubqd
-    uzpqj_ar_otmd = xaiqd.uzpqj(otmd) - wqk
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing ...
